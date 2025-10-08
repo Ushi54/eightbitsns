@@ -73,7 +73,7 @@ export default function Page() {
         <Button onClick={() => router.push("/createAccount")} sx={{ bgcolor: '#fff', color: '#000', width: '120px' }}>
           アカウント作成
         </Button>
-        <Button sx={{ bgcolor: '#fff', color: '#000', width: '120px' }}>ログイン</Button>
+        <Button onClick={() => router.push("/timeLine")} sx={{ bgcolor: '#fff', color: '#000', width: '120px' }}>ログイン</Button>
       </Stack>
     </div >
   );
