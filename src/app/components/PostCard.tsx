@@ -20,7 +20,7 @@ const PostCard = ({ post }: { post: Post }) => {
           </Box>
           <Stack direction={'column'} alignItems={'start'} mt={0.3} ml={1}>
 
-            <Stack direction={'row'} alignItems={'center'} mb={1}>
+            <Stack direction={'row'} alignItems={'center'} mb={1} gap={1}>
               <Typography fontWeight="bold">{post.user.displayName}</Typography>
               <Typography color="text.secondary">@{post.user.handle}</Typography>
               <Typography fontSize="0.7rem" color="text.secondary">{toRelativeTime(post.createdAt)}</Typography>
